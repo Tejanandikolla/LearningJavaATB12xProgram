@@ -3,7 +3,7 @@ package ex_17_OOPs;
 public class ATBx {
 
         // Attributes
-        String name;
+        String name="teja";
         int age;
         String gender;
         int salary;

@@ -1,4 +1,4 @@
-package poly.superKeyword;
+package ex_19_OOPs_Part2.poly.superKeyword;
 
 public class Lab181 {
     public static void main(String[] args) {

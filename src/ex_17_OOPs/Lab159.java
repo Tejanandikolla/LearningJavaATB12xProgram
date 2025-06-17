@@ -8,10 +8,12 @@ public class Lab159 {
         // Object -> new ATBx();
 
         amit.name = "Amit sharma";
+        System.out.println(amit.name);
         amit.doAssignment();
 
         ATBx pramod = new ATBx();
         pramod.name = "Pramod dutta";
+        System.out.println(pramod.name);
         pramod.doAssignment();
 
         D obRef = new D();
