@@ -11,5 +11,26 @@
 //Factorial of 5 is: 120
 package Trackertest;
 
+import java.util.Scanner;
+
 public class cha12 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a +ve number to know factorial");
+        int n = scanner.nextInt();
+        int fact = 1;
+        if(n<0) {
+            System.out.println("Invalid input enter +ve numbers");
+
+        }
+        else if (n == 1) {
+            System.out.println("Factorial of " + n + " is:" + n);
+        } else {
+            for (int i = 2; i <=n; i++) {
+                fact *= i;
+            }
+            System.out.println("Factorial of " + n + " is:" + fact);
+
+        }
+    }
 }

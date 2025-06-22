@@ -17,9 +17,37 @@ public class cha10 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter 2 values");
-        int n1= scanner.nextInt();
-        int n2= scanner.nextInt();
+        double a= scanner.nextDouble();
+        double b= scanner.nextDouble();
         System.out.println("enter an operator (+, -, *, /) ");
         char opr= scanner.next().charAt(0);
+        switch(opr){
+            case '+':{
+                System.out.println("Result:"+(a+b));
+                break;
+            }
+            case '-':{
+                System.out.println("Result:"+(a-b));
+                break;
+            }
+            case '*':{
+                System.out.println("Result:"+(a*b));
+                break;
+
+            }
+            case '/':{
+                if(b!=0){
+                System.out.println("Result:"+(a/b));}
+                else{
+                    System.out.println("Division by zero is not allowed :");
+                }
+                break;
+            }
+            default:{
+                System.out.println("invalid input ");
+            }
+
+        }
+
     }
 }
