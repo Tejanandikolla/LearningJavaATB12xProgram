@@ -12,6 +12,7 @@ public class Lab192_Static {
         System.out.println(s2.course_name);
 
         Student.m1();
+
     }
 }
 

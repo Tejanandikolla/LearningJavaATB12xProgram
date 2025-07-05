@@ -15,7 +15,7 @@ class Dutta implements Pramod{
 
     @Override
     public void display() {
-        System.out.println(a);
+        System.out.println("hi");
     }
 }
 interface Pramod{
