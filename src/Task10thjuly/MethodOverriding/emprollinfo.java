@@ -5,7 +5,7 @@
 //Create child classes Manager, Clerk, Tester, each overriding role() to print their specific roles.
 //Call role() on each object to show how overriding helps in specialization.
 
-package Task10thjuly;
+package Task10thjuly.MethodOverriding;
 
 class Employee{
     Employee(){

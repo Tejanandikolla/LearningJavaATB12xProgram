@@ -6,9 +6,7 @@
 //The double version should add two decimal numbers.
 //In the main method, call both versions to demonstrate how overloading works with data types.
 
-package Task10thjuly;
-
-import ex_17_OOPs.D;
+package Task10thjuly.MethodOverloading;
 
 class Calculator{
     Calculator(){

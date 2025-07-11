@@ -7,7 +7,7 @@
 //Car prints "Turn the key to start the car"
 //This shows how polymorphism works with method overriding.
 
-package Task10thjuly;
+package Task10thjuly.MethodOverriding;
 class Vehicle{
     Vehicle(){
         System.out.println("DC");

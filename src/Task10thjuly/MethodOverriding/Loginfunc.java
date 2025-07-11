@@ -5,7 +5,7 @@
     //Create subclasses AdminUser and RegularUser, each overriding login() with their own logic/messages.
     //Demonstrate calling the login() method using base class reference to highlight runtime polymorphism.
 
-package Task10thjuly;
+package Task10thjuly.MethodOverriding;
 class User{
     public void login(){
         System.out.println("User login");
